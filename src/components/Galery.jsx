@@ -14,9 +14,7 @@ import photo2 from '../../public/photogalery/photo2.jpg'
 import photo_b from '../../public/photogalery/photo_b.jpg'
 import photo3 from '../../public/photogalery/photo3.jpg'
 import photo1 from '../../public/photogalery/photo1.jpg'
-import DSC_1 from '../../public/photogalery/DSC_1.JPG'
-import DSC_2 from '../../public/photogalery/DSC_2.JPG'
-import DSC_3 from '../../public/photogalery/DSC_3.JPG'
+
 const Galery = () => {
   return (
     <div id='galery' className="w-full h-[300px] text-center">
@@ -37,9 +35,6 @@ const Galery = () => {
                  <PhotoStyled backgroundImg={photo_b} />
                  <PhotoStyled backgroundImg={photo3} />
                  <PhotoStyled backgroundImg={photo1} />
-                 <PhotoStyled backgroundImg={DSC_1} />
-                 <PhotoStyled backgroundImg={DSC_2} />
-                 <PhotoStyled backgroundImg={DSC_3} />
             </div>
         </div>
     </div>   </div>
